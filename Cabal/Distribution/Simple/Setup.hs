@@ -97,7 +97,7 @@ import Distribution.Text
          ( Text(..), display )
 import qualified Distribution.Compat.ReadP as Parse
 import qualified Text.PrettyPrint as Disp
-import Distribution.Package ( Dependency(..) )
+import Distribution.Dependency (Dependency(..))
 import Distribution.PackageDescription
          ( FlagName(..), FlagAssignment )
 import Distribution.Simple.Command hiding (boolOpt, boolOpt')

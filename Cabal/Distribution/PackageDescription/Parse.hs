@@ -89,7 +89,8 @@ import Distribution.PackageDescription
 import Distribution.PackageDescription.Utils
          ( cabalBug, userBug )
 import Distribution.Package
-         ( PackageIdentifier(..), Dependency(..), packageName, packageVersion )
+         ( PackageIdentifier(..), packageName, packageVersion )
+import Distribution.Dependency (Dependency(..))         
 import Distribution.ModuleName ( ModuleName )
 import Distribution.Version
         ( Version(Version), orLaterVersion

@@ -81,8 +81,8 @@ import Distribution.Simple.PreProcess ( platformDefines )
 import Distribution.Package
     ( PackageName(PackageName), PackageIdentifier(..), PackageId
     , packageName, packageVersion, Package(..)
-    , Dependency(Dependency), simplifyDependency
     , InstalledPackageId(..) )
+import Distribution.Dependency (Dependency(Dependency),simplifyDependency)    
 import Distribution.InstalledPackageInfo as Installed
     ( InstalledPackageInfo, InstalledPackageInfo_(..)
     , emptyInstalledPackageInfo )

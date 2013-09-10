@@ -62,7 +62,7 @@ import Distribution.Simple.Utils (writeUTF8File)
 import Distribution.ParseUtils (showFreeText, FieldDescr(..))
 import Distribution.PackageDescription.Parse (pkgDescrFieldDescrs,binfoFieldDescrs,libFieldDescrs,
        sourceRepoFieldDescrs)
-import Distribution.Package (Dependency(..))
+import Distribution.Dependency (Dependency(..))
 import Distribution.Text (Text(..))
 import Data.Maybe (isJust, fromJust, isNothing)
 

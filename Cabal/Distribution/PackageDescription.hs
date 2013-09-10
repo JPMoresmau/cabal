@@ -136,7 +136,8 @@ import qualified Data.Char as Char (isAlphaNum, isDigit, toLower)
 
 import Distribution.Package
          ( PackageName(PackageName), PackageIdentifier(PackageIdentifier)
-         , Dependency, Package(..) )
+         ,  Package(..) )
+import Distribution.Dependency (Dependency)
 import Distribution.ModuleName ( ModuleName )
 import Distribution.Version
          ( Version(Version), VersionRange, anyVersion, orLaterVersion

@@ -96,6 +96,7 @@ import Data.Data        ( Data )
 import Data.Typeable    ( Typeable )
 import Data.Version     ( Version(..) )
 
+import Distribution.Package ()
 import Distribution.Text ( Text(..) )
 import qualified Distribution.Compat.ReadP as Parse
 import Distribution.Compat.ReadP ((+++))
@@ -122,7 +123,7 @@ data VersionRange
   deriving (Show,Read,Eq,Typeable,Data)
 
 -- TODO orphan
-deriving instance Data Version
+-- deriving instance Data Version
 
 {-# DEPRECATED AnyVersion "Use 'anyVersion', 'foldVersionRange' or 'asVersionIntervals'" #-}
 {-# DEPRECATED ThisVersion "use 'thisVersion', 'foldVersionRange' or 'asVersionIntervals'" #-}

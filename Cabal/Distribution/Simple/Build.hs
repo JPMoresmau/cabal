@@ -63,8 +63,8 @@ import qualified Distribution.Simple.Build.Macros      as Build.Macros
 import qualified Distribution.Simple.Build.PathsModule as Build.PathsModule
 
 import Distribution.Package
-         ( Package(..), PackageName(..), PackageIdentifier(..)
-         , Dependency(..), thisPackageVersion )
+         ( Package(..), PackageName(..), PackageIdentifier(..) )
+import Distribution.Dependency (   Dependency(..),thisPackageVersion)
 import Distribution.Simple.Compiler
          ( CompilerFlavor(..), compilerFlavor, PackageDB(..) )
 import Distribution.PackageDescription

@@ -93,8 +93,10 @@ import Distribution.Version
          , asVersionIntervals, UpperBound(..), isNoVersion )
 import Distribution.Package
          ( PackageName(PackageName), packageName, packageVersion
-         , Dependency(..), pkgName )
+         , pkgName )
 
+import Distribution.Dependency
+         ( Dependency(..) )
 import Distribution.Text
          ( display, disp )
 import qualified Text.PrettyPrint as Disp

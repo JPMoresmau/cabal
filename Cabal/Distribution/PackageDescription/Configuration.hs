@@ -58,7 +58,8 @@ module Distribution.PackageDescription.Configuration (
   ) where
 
 import Distribution.Package
-         ( PackageName, Dependency(..) )
+         ( PackageName )
+import Distribution.Dependency (Dependency(..))
 import Distribution.PackageDescription
          ( GenericPackageDescription(..), PackageDescription(..)
          , Library(..), Executable(..), BuildInfo(..)
